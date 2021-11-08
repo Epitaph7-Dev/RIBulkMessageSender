@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns" label="Rhodes Islands Bulk Mailer">
+        <group id="RIBlkMailerGrp1">
+          <button id="SendMailBtn" label="Send Bulk Mail" onAction="SendMailAction"></button>
+          <button id="AboutBtn" label="About" onAction="ShowAboutDlg"></button>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
